@@ -1,5 +1,14 @@
 - vite create react app
 - Configured tailwind CSS
+
+
+
+#CineGPT
+-Create vite app
+- consfigured tailwind
+- header
+- login form
+- Sign up
 -
 
 #features
