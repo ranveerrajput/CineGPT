@@ -7,8 +7,22 @@
 -Create vite app
 - consfigured tailwind
 - header
+- routing for app
 - login form
 - Sign up
+- form validation
+- useRef hook
+- firebase setup
+- deploye our app to production
+- creat a sign up user account
+- implemened sign in user api
+- created redux store with user slice
+- implemented signout
+- update profile api call
+- bugfix : sign up user displaname nad profile picture update
+- bugfix : if user is npt logged in redirect from /browse to login page and vice versa
+- unsubscribed to the onauthstate change callback
+- add hardcoded values to constanats file
 -
 
 #features
