@@ -13,9 +13,7 @@ const VideoBackground = ({ movieId }) => {
         src={"https://www.youtube.com/embed/" + movieTrailor?.key + `?&autoplay=1&mute=1`}
         
         title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+       
       ></iframe>
     </div>
   );

@@ -31,6 +31,12 @@
 - fetch fata for trailor video
 - update store eith trailor video data
 - embeded the you tube video make it auto play and mute and made main container look hood
+- build secondary component
+- build movie list
+- build movie card
+- tmdb image cdn
+- Made UI look good
+- usepopularmovies hook
 
 #features
 - login /Sign up
