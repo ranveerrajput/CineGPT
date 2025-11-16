@@ -37,11 +37,11 @@ const Header = () => {
         // User is signed out
         // remove from the store and redirect to the login page
         dispatch(removeUser());
-          navigate("/");
+        navigate("/");
       }
     });
 
-    return ()=> unscubscribe();
+    return () => unscubscribe();
   }, []);
 
   const handleSignOut = () => {
@@ -56,18 +56,10 @@ const Header = () => {
 
   return (
     <div className=" relative px-10 py-4 bg-gradient-to-b from-black z-10  flex justify-between">
-      <img
-        className=" w-56"
-        src={LOGO}
-        alt="logo"
-      />
+      <img className=" w-56" src={LOGO} alt="logo" />
       {userData && (
         <div className="flex  p-5 gap-2">
-          <img
-          src={userData.photoURL}
-            className="w-12 h-12"
-            alt="user-icon"
-          />
+          <img src={userData.photoURL} className="w-12 h-12" alt="user-icon" />
           <button className="text-white" onClick={handleSignOut}>
             Sign Out
           </button>
